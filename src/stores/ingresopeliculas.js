@@ -23,7 +23,7 @@ export const usepeliculasStore= defineStore("peliculas",()=>{
     const getpeliById = (id) => {
         return peliculas.value.find(pelicula => pelicula.id == id)
     };
-    //const addMovie=(movie)=>peliculas.value.push({...movie});//para el form
+    //const addMovie=(movie)=>peliculas.value.push({...movie});//para el frm
 
     return {
         peliculas,
